@@ -1,5 +1,5 @@
 # carbon-calculator 
-_on going project_  
+_adding more features to the  project_  
 
 > A carbon calculator tool built with MERN Stack.
 
