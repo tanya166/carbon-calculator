@@ -69,11 +69,11 @@ node server.js
 ```
 ## Start web server  
 ```bash
-Development Mode (Client only): cd my-app then npm run start then open http://localhost:3001 in a browser
+Development Mode (Client only): cd my-app then npm run start then open http://localhost:3000 in a browser
 ```
 
 ```bash
-Development Mode (Server only): cd backend then npm run start then open http://localhost:3000 in a browser
+Development Mode (Server only): cd backend then npm run start then open http://localhost:5000 in a browser
 ```
 <br>
  
