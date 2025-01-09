@@ -1,0 +1,176 @@
+body{
+  overflow-x: hidden;
+}
+.calculate{
+  border: 1px solid #2A2D27; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 110%;
+}
+.div1{
+  height: 10%;
+  margin-top: -5%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.div1-1{
+  height: 10%;
+  margin-top: -5%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.div2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.no_h{
+  margin: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+}
+.text2{
+  font-size: 85%;
+}
+.text3{
+  text-decoration: underline;
+  font-size: 60%;
+  color: #4e9954;
+  white-space: nowrap;
+}
+.text3:hover{
+  color: #1c361e;
+}
+.submitt-3{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 6% 15% 2% 15%;
+  gap: 40%;
+}
+.button1{
+  width: 50% ;
+  height: 40px;
+  white-space:nowrap;
+  border-radius: 10px;
+  border: none;
+  background-color: #B6D297; 
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer; 
+}
+.button2::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.button2:hover::before {
+  opacity: 0.3;
+}
+.button2 span { 
+  color: #000; 
+  position: relative; 
+}
+.button1::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.button1:hover::before {
+  opacity: 0.3;
+}
+.button1 span { 
+  color: #000; 
+  position: relative; 
+}
+.t{
+  width: 15%;
+  font-family: 'lato';
+  text-align: left;
+}
+.options{
+  width: 5%;
+}
+
+.qsn2{
+  font-family: 'lato';
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+.qsn1{
+  font-family: 'lato';
+  font-size: 20px;
+}
+.enter2{
+  width: 15%;
+}
+.opt{
+  display: flex;
+  flex-direction: column;
+}
+.text7{
+  width: 15%;
+}
+.t2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.optionss1{
+  margin-top: 13%;
+  width: 30%;
+}
+.t11{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.ita{
+  margin-right: 4%;
+  margin-left: 3%;
+}
+.it1-1{
+ display: flex;
+  flex-direction: row;
+}
+.it9{
+  white-space: nowrap;
+  margin-right: 1%;
+  text-align: left;
+  
+}
+.it2{
+  margin: 0% 9.5% 0% 0%;
+  text-align: left;
+  margin-top: 10%;
+}
+.it3{
+  margin: 0% 16% 0% 0%;
+  text-align: left;
+  margin-top: 10%;
+}
+.left-part33{
+  display: flex;
+  flex-direction: column;
+  gap: 3.9rem;
+}
+.right-part33{
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}

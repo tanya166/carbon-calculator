@@ -1,0 +1,14 @@
+.body{
+  overflow-x: hidden;
+}
+.num{
+    margin-left: 2%;
+ width:25%;
+  }
+  .numb{
+    display: flex;
+    flex-direction: row;
+  }
+  .numb input{
+    width: 30%;
+  }

@@ -1,0 +1,120 @@
+
+ body{  
+  overflow-x: hidden; /* Prevent horizontal scroll */ 
+}
+
+.first_part {
+  color: #151702;
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Ensures the element spans the entire width */
+  height: 88vh; /* Ensures the element spans the full height of the viewport */
+  display: flex;
+  flex-direction: column; /* To center the text if needed */
+  justify-content: center; 
+}
+.heading {
+  font-family: "Forum";
+  margin-top: 10%;
+  font-weight: lighter;
+  margin-left: 10%;
+  font-size: 400%;
+  color: #2A2D27;
+}
+.span_name{
+  font-family:"Barlow";
+  color: #2A2D27;
+  margin: 6% 40% 6% 10%;
+  text-align: left;
+  line-height: 1.8;
+  word-spacing: 4px;
+  font-size: 120%;
+  letter-spacing: 1px;
+}
+.first_part button{
+  color: #2A2D27;
+  background-color: #F6F7EE;
+  width: 10%;
+  
+  border: none;
+  border-radius: 30px;
+  margin-left:10% ;
+  margin-bottom: 6%;
+  font-size: 90%;
+  padding: 0.8%;
+  position: relative; /* Enable relative positioning for child elements */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer; /* Optional: Set cursor to "pointer" on hover */
+} 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: #2A2D27;
+}
+.first_part button::before {
+  content: ""; /* Empty content for pseudo-element */
+  position: absolute; /* Absolute positioning within the button */
+  top: 0; /* Align to top of the button */
+  left: 0; /* Align to left of the button */
+  width: 100%; /* Span the entire width of the button */
+  height: 100%; /* Span the entire height of the button */
+ 
+  background-color: #2A2D27; /* Set background color for hover effect */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.first_part button:hover::before {
+  opacity: 0.5; /* Show the background color on hover */
+}
+
+.h{
+  color: #2A2D27;
+font-size: 55px;
+margin: 4% 10%;
+}
+.h2{
+  color: #2A2D27;
+  margin: 5% 10%;
+  font-size: 25px;
+}
+.h3{
+  color: #2A2D27;
+  margin: 2% 15%;
+  font-size: 20px;
+}
+.modes{
+  padding: 2% 10% 2% 10%;
+  width: 65%;
+  height: 150%;
+  background: rgba(229, 229, 229, 0.50);
+ margin: auto;
+  display: flex;
+  flex-direction: row; 
+  text-align: center;
+ 
+}
+.icon{
+  margin: 0 5% 0 5%;
+  align-items: center;
+  justify-content: center;
+
+}
+.icon:hover{
+ scale:1.15;
+}
+.image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+
+
+
+

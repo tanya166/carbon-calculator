@@ -1,0 +1,244 @@
+
+.body{
+  overflow-x: hidden;
+}
+.calculate{
+      border: 1px solid #2A2D27; 
+               
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      justify-self: center;
+      justify-items: center;
+      
+  }
+  h1{
+    font-size: 150%;
+    margin-bottom: 5%;
+  }
+  .div1{
+    margin: 1.2% 0 1.2% 0 ;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+   
+  }
+  .div2{
+    margin: 2.5% 0 2.5% 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .no_h{
+    margin: 2% 0 2% 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .text3{
+    text-decoration: underline;
+    font-size: 83%;
+    color: #4e9954;
+    
+  }
+  .text3:hover{
+    color: #1c361e;
+  }
+ .submitt{
+  justify-items: center;
+  justify-content: center;
+display: flex;
+flex-direction: row;
+margin: 2% 15% 2% 15%;
+gap: 45%;
+
+ }
+ .button1{
+    width: 50% ;
+    height: 40px;
+white-space:nowrap;
+border-radius:  10px;
+border: none;
+background-color :#B6D297; 
+ }
+ .button2{
+background-color:#B6D297;
+    width: 100% ;
+     height: 40px;
+     border-radius:10px;
+     border: none;
+ }
+
+     .button2 {
+        position: relative; /* Enable relative positioning for child elements */
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer; /* Optional: Set cursor to "pointer" on hover */
+      }
+      
+      .button2::before {
+        content: ""; /* Empty content for pseudo-element */
+        position: absolute; /* Absolute positioning within the button */
+        top: 0; /* Align to top of the button */
+        left: 0; /* Align to left of the button */
+        width: 100%; /* Span the entire width of the button */
+        height: 100%; /* Span the entire height of the button */
+        background-color: #ddd; /* Set background color for hover effect */
+        opacity: 0; /* Initially invisible */
+        transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+      }
+      
+      .button2:hover::before {
+        opacity: 0.3; /* Show the background color on hover */
+      }
+      
+      .button2 span { 
+        color: #000; 
+        position: relative; 
+      }
+      
+     .button1 {
+        position: relative; /* Enable relative positioning for child elements */
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer; /* Optional: Set cursor to "pointer" on hover */
+      }
+      
+      .button1::before {
+        content: ""; /* Empty content for pseudo-element */
+        position: absolute; /* Absolute positioning within the button */
+        top: 0; /* Align to top of the button */
+        left: 0; /* Align to left of the button */
+        width: 100%; /* Span the entire width of the button */
+        height: 100%; /* Span the entire height of the button */
+        background-color: #ddd; /* Set background color for hover effect */
+        opacity: 0; /* Initially invisible */
+        transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+      }
+      
+      .button1:hover::before {
+        opacity: 0.3; /* Show the background color on hover */
+      }
+      
+      .button1 span { 
+        color: #000; 
+        position: relative; 
+      }
+      .t{
+        gap: 3rem;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        width:15%;
+        font-family: 'lato';
+        white-space: nowrap;
+        padding: 2% 0 2% 0;
+        
+      }
+      .qsn2{
+        font-family: 'lato';
+        font-size: 13.5px;
+      }
+      .qsn1{
+        text-decoration: underline;
+        white-space: nowrap;
+        font-family: 'lato';
+        font-size: 20px;
+      }
+      .ita{
+        white-space: nowrap;
+        width:80;
+      }
+      .whole{
+        display: flex;
+        flex-direction: row;
+      }
+      .t1{
+        margin: 1% 0 0 0 ;
+        gap: 3.6rem;
+        display: flex;
+        flex-direction: column;
+        font-family: 'lato';
+        text-align: left;
+      }
+      .it{
+        
+        padding: 14% 0 14% 0;
+        margin-bottom: 9%;  
+      }
+   
+    .one{
+     margin-left: 10%;
+     margin-bottom: 16%;
+     width: 20%;
+     margin-top: -5%;
+    }
+    .onee{
+      margin-left: 0%;
+      margin-bottom: 12%;
+      width: 100%;
+     }
+    .please{
+      margin-left: 2rem;
+      font-weight: lighter;
+    }
+    .optionss{
+      margin-left: 10%;
+      width:100%;
+    }
+    .modal {
+      position: fixed;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;  
+        height: auto;  
+    }
+    .modal-content {
+      background-color: #efffe3;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 150%;
+     height: 100%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .result-text2{
+      display: flex;
+      width: 90%;
+      padding:3%;
+      text-align: left;
+      margin-top: 7%;
+      align-items: center;
+     background-color: #1c361e;
+     color: #ddd;
+      align-content: center;
+      align-items: center;
+      align-self: center;
+      justify-content: center;
+      border-radius: 10px;
+      }
+      .rad{
+        margin: 2rem 0 2rem 0;
+      }
+    
+    
+      

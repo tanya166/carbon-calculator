@@ -1,0 +1,177 @@
+.body{
+  overflow-x: hidden;
+}
+.calculate{
+    border: 1px solid #2A2D27;          
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.hello{
+  display: flex;
+  flex-direction: row;
+}
+.div11{
+  margin: 1.2% 0 1.2% 0 ;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  align-items: baseline;
+  gap: 1rem;
+}
+.div2{
+  vertical-align: middle;
+  margin: 2.5% 0 2.5% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.no_h{
+  margin: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+}
+.text2{
+  font-size: 85%;
+}
+.text3{
+  text-decoration: underline;
+  font-size: 60%;
+  color: #4e9954;
+  white-space: nowrap;
+  
+}
+.text3:hover{
+  color: #1c361e;
+}
+.submitt{
+display: flex;
+flex-direction: row;
+margin: 2rem 4rem 2rem 4rem;
+align-items: center;
+
+}
+.button1{
+  width: 50% ;
+  height: 40px;
+white-space:nowrap;
+border-radius:  10px;
+border: none;
+background-color :#B6D297; 
+}
+.button2{
+background-color:#B6D297;
+  width: 50% ;
+   height: 40px;
+   border-radius:10px;
+   border: none;
+}
+
+   .button2 {
+      position: relative; /* Enable relative positioning for child elements */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer; /* Optional: Set cursor to "pointer" on hover */
+    }
+    
+    .button2::before {
+      content: ""; /* Empty content for pseudo-element */
+      position: absolute; /* Absolute positioning within the button */
+      top: 0; /* Align to top of the button */
+      left: 0; /* Align to left of the button */
+      width: 100%; /* Span the entire width of the button */
+      height: 100%; /* Span the entire height of the button */
+      background-color: #ddd; /* Set background color for hover effect */
+      opacity: 0; /* Initially invisible */
+      transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+    
+    .button2:hover::before {
+      opacity: 0.3; /* Show the background color on hover */
+    }
+    
+    .button2 span { 
+      color: #000; 
+      position: relative; 
+    }
+    
+   .button1 {
+      position: relative; /* Enable relative positioning for child elements */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer; /* Optional: Set cursor to "pointer" on hover */
+    }
+    
+    .button1::before {
+      content: ""; /* Empty content for pseudo-element */
+      position: absolute; /* Absolute positioning within the button */
+      top: 0; /* Align to top of the button */
+      left: 0; /* Align to left of the button */
+      width: 100%; /* Span the entire width of the button */
+      height: 100%; /* Span the entire height of the button */
+      background-color: #ddd; /* Set background color for hover effect */
+      opacity: 0; /* Initially invisible */
+      transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+    
+    .button1:hover::before {
+      opacity: 0.3; /* Show the background color on hover */
+    }
+    
+    .button1 span { 
+      color: #000; 
+      position: relative; 
+    }
+    .t{
+      width:15%;
+      font-family: 'lato';
+     text-align: left;
+    }
+   
+    .qsn2{
+      font-family: 'lato';
+      font-size: 13.5px;
+    }
+    .qsn1{
+      font-family: 'lato';
+      font-size: 20px;
+    }
+    .enter{
+      margin-left: 2%;
+    }
+    .enter2{
+      margin-left: 0%;
+      width: 20%;
+    }
+    .opt{
+      display: flex;
+      flex-direction: column;
+    }
+    .left-text44{
+      display: flex;
+      flex-direction: column;
+gap: 3.85rem;
+    }
+    .right-text44{
+      display: flex;
+      flex-direction: column;
+gap: 3.5rem;
+    }
+    .modal {
+      position: fixed;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;  
+        height: auto;  
+    }
+
+    
+   
+    

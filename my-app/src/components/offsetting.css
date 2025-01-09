@@ -1,0 +1,270 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    font-family: 'Arial', sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+  }
+  .headd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    border: none;
+  }
+  .header {
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    text-align: center;
+    width: 100%;
+  }
+  .title {
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 15%;
+   margin-bottom: -7%;
+    font-weight: 200;
+    color:#cdcf9f ;
+    font-size: 2.5rem;
+    
+  }
+  .blank {
+    margin-bottom: -7%;
+    color: rgb(149, 192, 85);
+    margin-top: 15%;
+    font-weight: 200;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #d5d5d5;
+    margin-left: 69%;
+    margin-bottom: -5%;
+    font-weight: lighter;
+    width:30% ;
+  }
+  .hea1{
+    font-weight: 200;
+    padding: 0 0.7% 0 0.7%;
+  }
+  .hea2{
+    font-size: 250%;
+    font-weight: 200;
+    color:#cdcf9f ;
+  }
+  .hea3{
+    font-size: 250%;
+    font-weight: 200;
+    color: rgb(149, 192, 85);;
+padding-left: 1.4%;
+  }
+  .hea4{
+    font-size: 250%;
+    font-weight: 200;
+   white-space: nowrap;
+   margin-left: 1%;
+  }
+  .hea5{
+   
+    font-size: 250%;
+    font-weight: 200;
+  }
+ 
+  .hea6{
+    padding-left: 0.5%;
+    font-size: 200%;
+    font-weight: 200;
+    color:#cdcf9f ;
+    margin: -0.1%;
+  }
+  .hea7{
+   
+    font-size: 200%;
+    font-weight: 200;
+    color: rgb(149, 192, 85);;
+padding-left: 1%;
+padding-right: 0.5%;
+  }
+  .hea8{
+    font-size: 230%;
+    font-weight: 200;
+  color:#cdcf9f ; 
+  }
+  .hea9{
+    font-size: 230%;
+    font-weight: 200;
+    color: rgb(149, 192, 85);;
+
+  }
+  .hea{
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #edffd8;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+  }
+.firstparr{
+    display: flex;
+    flex-direction: row;
+}
+.secondparr{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+ .first_sec{
+    background-color: #fffff0;
+    display: flex;
+    flex-direction: column;
+ }
+ .sectionn1{
+    background-color:  #B6D297;
+   justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+ }
+  .section_ok {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: transparent;
+  }
+  .hor{
+    font-size: 120%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .boxed{
+    font-weight: 200;
+    font-size: 1.1rem;
+    border: solid 1px black;
+    padding:4%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+    margin-right: 7%;
+    margin-left: 30%;
+    background-color: #ffffff;
+  }
+  .boxed:hover{
+scale:1.05;
+cursor: pointer;
+  }
+  .text5{
+    margin-right: 30%;
+    font-weight: lighter;
+   font-size: 1.1rem;
+   background-color: #ffffff;
+   font-weight: 200;
+   border: solid 1px black;
+   padding:4%;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  .text5:hover{
+    scale: 1.05;
+    cursor: pointer;
+  }
+  .img1 {
+   margin-right:8%;
+   height: 120%;
+   width: 50%;
+   margin-top: 12%;
+  }
+  .img3 {
+    height: 120%;
+    width: 55%;
+    margin: 16rem 5rem 3rem 0 ;
+   }
+  .img2{
+    margin: 20rem 0 3rem 5rem ;
+    height: 100%;
+    width: 50%;
+  }
+  .first_text{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+  }
+  .section{
+    background-color:  rgb(255, 255, 255);
+  }
+  .faqq{
+    font-size: 350%;
+    font-weight: lighter;
+  }
+  .call-to-action {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .faq {
+    padding: 0.6%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .desc{
+    text-align: left;
+    padding: 1%;
+    font-size: 120%;
+    font-weight: lighter;
+
+  }
+  .faq-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-size: 130%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .faq-content {
+    background-color: #c0d6a5;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .arrow {
+    background-color: transparent;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  .thirdparr{
+    display: flex;
+    flex-direction: row;
+  }
+  .c-offset{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.5rem 0 0.5rem;
+  }
